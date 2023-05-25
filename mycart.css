@@ -1,0 +1,52 @@
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, sans-serif;
+}
+.scart{
+    height:80%;
+    width:100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.scart table{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.scart table thead th{
+    padding: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #023047;
+}
+.scart table tr th{
+    border-bottom: var(--border);
+    color: var(--white);
+    padding: 1.5rem;
+    font-size: 1rem;
+}
+.scart .delete-btn {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFB905;
+    color: #1a2c35;
+    font-size: 16px;
+    font-weight: 700;
+    border-color: transparent;
+    border-radius: 20px;
+    margin: 20%;
+    
+}
+.scart table input[type="submit"]{
+    color: white;
+    background-color: #023047;
+    border-radius: 10%;
+    text-align: center;
+    justify-content: center;
+}
